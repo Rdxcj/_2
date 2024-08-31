@@ -21,6 +21,6 @@ jobs:
             Copy-Item -Path $source -Destination $destination
             $env:path += ";"+$destination
             zrok version
-            zrok enable B9jsqx9Png1n
+            zrok enable Yl81mKyejkiI
             zrok share private --backend-mode tcpTunnel localhost:3389 --headless
             
